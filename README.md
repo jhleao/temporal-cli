@@ -14,7 +14,7 @@ Or the Docker compose version:
 version: '3.9'
 services:
   temporal:
-    image: temporalio/temporal-cli:latest
+    image: jhleao/temporal-cli:latest
     command: server start-dev --ip 0.0.0.0
     ports: ['7233:7233', '8233:8233']
 ```
